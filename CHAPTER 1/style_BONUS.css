@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  font-family: "Courier New", Courier, monospace;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background: #0c0c0c;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.content h1 {
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+  background-color: rgb(24, 24, 24);
+}
+p {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #3d3d3d;
+  margin-left: 20px;
+}
+.content {
+  width: 1500px;
+  height: auto;
+  background-color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
+  border: 2px solid, rgba(255, 255, 255, 0.464);
+  margin: 10px;
+  padding: 5px;
+  gap: 10px;
+}
+.content h2 {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+  background-color: rgb(24, 24, 24);
+}
+.content h3 {
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+  background-color: rgb(24, 24, 24);
+}
+.content p {
+  font-size: 20px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000000;
+  background-color: rgb(24, 24, 24);
+}
