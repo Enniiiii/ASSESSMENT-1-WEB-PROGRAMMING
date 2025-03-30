@@ -1,0 +1,99 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  font-family: "Tahoma";
+  background: #000000;
+  color: white;
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+.menu {
+  background-color: #000000;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0px;
+}
+.menu a {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  font-family: "Tahoma";
+  text-decoration: none;
+}
+.footer {
+  margin-top: 507px;
+  width: 100%;
+  padding: 5px;
+  background-color: #530000;
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-family: "Tahoma";
+  transition-duration: 0.4s;
+}
+.first {
+  left: 25px;
+  background-color: #888888;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 175px;
+  color: white;
+  font-family: "Tahoma";
+  padding: 15px;
+  font-size: 25px;
+}
+.second {
+  left: 525px;
+  background-color: #888888;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 175px;
+  color: white;
+  font-family: "Tahoma";
+  padding: 15px;
+  font-size: 25px;
+}
+
+.third {
+  left: 1028px;
+  background-color: #888888;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 175px;
+  color: white;
+  font-family: "Tahoma";
+  padding: 15px;
+  font-size: 25px;
+}
+.button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 380px;
+  border-radius: 16px;
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: rgb(255, 62, 62);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma";
+}

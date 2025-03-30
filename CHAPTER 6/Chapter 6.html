@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Chapter_6_Style.css" type="text/css" />
+    <title>Document</title>
+    <script defer src="Chapter_6.js"></script>
+  </head>
+  <h1>Chapter 6: Petrol Calculator</h1>
+  <body>
+    <!-- The div is made to arrange each element in a nice and clean way -->
+    <div id="wrapper">
+      <label for="input1">Petrol</label>
+      <!-- This creats a num field where the user can enter their petrol. -->
+      <input
+        type="number"
+        placeholder="Enter your Petrol"
+        id="input1"
+        name="petrol"
+        value="1.72"
+      />
+      <!-- This creats a num field where the user can enter their desired litres. -->
+      <label for="input1">Litres</label>
+      <input
+        type="number"
+        placeholder="Enter your desired litres"
+        id="input2"
+        name="litre"
+        value="0"
+      />
+      <!-- This button runs a JavaScript function to calculate the total cost of petrol based on the input values. -->
+      <button onclick="calculate()" id="button">Calculate</button>
+      <p>Your total cost is: <span id="total"></span></p>
+    </div>
+  </body>
+</html>

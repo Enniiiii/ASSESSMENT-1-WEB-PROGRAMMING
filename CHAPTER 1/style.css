@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Lugrasimo";
+  src: url("/Fonts/Lugrasimo-Regular.ttf");
+}
+
+#Title {
+  color: rgb(255, 115, 0);
+  font-family: "Lugrasimo", cursive;
+}
+
+body {
+  background-image: url(/images/Pizza.jpg);
+  background-size: 1590px;
+  background-color: bisque;
+  color: rgb(85, 0, 0);
+  font-family: "Lugrasimo", cursive;
+  font-size: 20px;
+}
+
+h1 {
+  text-shadow: 2px 2px 3px rgb(159, 43, 43);
+}
+h2 {
+  text-shadow: 2px 2px 3px rgb(159, 43, 43);
+}
+h3 {
+  text-shadow: 2px 2px 3px rgb(159, 43, 43);
+}
+.recipe {
+  background-color: rgb(247, 163, 95);
+  color: rgb(85, 0, 0);
+  border: 2px solid, rgb(29, 0, 0);
+  margin: 5px;
+  padding: 5px;
+}
+ul {
+  color: rgb(135, 52, 18);
+}
+ol {
+  color: rgb(135, 52, 18);
+}

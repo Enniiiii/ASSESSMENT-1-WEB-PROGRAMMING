@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Sublima";
+  src: url(/Fonts/Sublima-ExtraBold.otf);
+}
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(192, 215, 255);
+  width: 500px;
+  font-family: "Sublima", sans-serif;
+  gap: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  box-shadow: #636363 10px 10px 0px;
+}
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Sublima", sans-serif;
+}
+#button {
+  background-color: rgb(134, 176, 255);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  font-family: "Sublima", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 30%;
+  border-color: blue;
+  border-radius: 16px;
+  transition-duration: 0.4s;
+}
+#button:hover {
+  background-color: rgb(5, 0, 54);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.24);
+}
+input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Sublima", sans-serif;
+  color: #121212; /* Text color */
+  background-color: #f9f9f9;
+  border: 2px solid #134eeb;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+input[type="number"]:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}

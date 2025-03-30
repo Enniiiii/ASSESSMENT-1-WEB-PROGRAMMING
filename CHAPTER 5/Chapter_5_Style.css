@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration-line: underline;
+}
+#video {
+  margin: 0 auto;
+  display: block;
+}
+p {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

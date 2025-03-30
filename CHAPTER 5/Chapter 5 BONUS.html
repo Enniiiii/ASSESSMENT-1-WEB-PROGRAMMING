@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Chapter_5_BONUS_Style.css" type="text/css" />
+    <script defer src="Chapter_5.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">Chapter 5 Bonus</div>
+    <!-- Main Wrapper -->
+    <div id="wrapper">
+      <!-- TTS Wrapper -->
+      <div id="tts-wrapper">
+        <!-- Area where the text to speech happens -->
+        <h1>Text to Speech</h1>
+        <textarea
+          id="tts-textarea"
+          placeholder="Enter text here"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <button id="tts-button" onclick="speak()">Say it!!</button>
+      </div>
+      <!-- Sound Wrapper -->
+      <div id="sound-wrapper">
+        <!-- First page soundboard -->
+        <!-- Each button plays a different sound when clicked. Has two different pages, first page is the default sounds while the next pages are custom sounds I added -->
+        <h1>Soundboard</h1>
+        <div id="btn-wrapper">
+          <button class="sound-btn"><p class="sound-name">Ah Ha!</p></button>
+          <button class="sound-btn">
+            <p class="sound-name">Back of the net!</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">Bang out of order</p>
+          </button>
+          <button class="sound-btn"><p class="sound-name">Dan</p></button>
+          <button class="sound-btn">
+            <p class="sound-name">Email of the evening</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">Hello Partridge</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">I ate a scotch egg!</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">Im confused..</p>
+          </button>
+          <button class="sound-btn"><p class="sound-name">Bruh</p></button>
+        </div>
+
+        <!-- Second page soundboard -->
+        <div id="btn-wrapper-2">
+          <button class="sound-btn"><p class="sound-name">Wiwiwi</p></button>
+          <button class="sound-btn">
+            <p class="sound-name">Flint and Steel</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">Frog Laugh</p>
+          </button>
+          <button class="sound-btn"><p class="sound-name">Yippee</p></button>
+          <button class="sound-btn">
+            <p class="sound-name">Bad to the bone</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">Wooo Baby!!</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">Android</p>
+          </button>
+          <button class="sound-btn">
+            <p class="sound-name">Huh</p>
+          </button>
+          <button class="sound-btn"><p class="sound-name">Run away!</p></button>
+        </div>
+        <nav>
+          <button class="nav-btn" id="left-btn" onclick="leftButton()">
+            left
+          </button>
+          <button class="nav-btn" id="right-btn" onclick="rightButton()">
+            right
+          </button>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

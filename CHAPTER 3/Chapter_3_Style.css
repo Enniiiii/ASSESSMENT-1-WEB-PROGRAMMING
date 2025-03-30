@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Utendo";
+  src: url(/Fonts/Utendo-Medium.ttf);
+}
+
+.header {
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+  font-family: "Utendo";
+  background: #331c38;
+  color: white;
+  font-size: 30px;
+}
+
+.align {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+.align img {
+  display: block;
+  margin: 0 auto;
+  max-width: 356px;
+}
+.align p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}
+#Grayscale {
+  filter: grayscale(100%);
+}
+#Contrast {
+  filter: contrast(200%);
+}
+#Invert {
+  filter: invert(100%);
+}
+body {
+  background-color: rgb(27, 27, 38);
+  font-family: "Utendo";
+  color: white;
+  margin: 0;
+}
